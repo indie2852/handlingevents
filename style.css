@@ -1,0 +1,21 @@
+#container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.box {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+}
+
+.box.pink {
+  background-color: pink;
+}
+
+
+
+
